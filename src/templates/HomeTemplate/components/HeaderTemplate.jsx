@@ -127,6 +127,7 @@ const HeaderTemplate = () => {
               <p className="w-max inline-block">{user.name}</p>
             )}
           </div>
+          <Link to={pathDefault.admin}>chuyển hướng</Link>
         </div>
       </div>
     </header>
